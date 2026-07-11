@@ -16,7 +16,17 @@ struct ContentView: View {
                 .foregroundStyle(.white)
                 .font(.largeTitle)
                 .bold()
+                
+                  
         }
+            .ignoresSafeArea()
+            ZStack {
+                Color.teal
+                Text("Sofea")
+                    .foregroundStyle(.white)
+                    .font(.largeTitle)
+                    .bold()
+            }
         .ignoresSafeArea()
         }
     }
